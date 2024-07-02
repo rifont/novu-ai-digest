@@ -1,11 +1,11 @@
 export const siteConfig = {
     name: "AI Notifications Digest",
-    url: "https://lightonia.vercel.app",
-    ogImage: "https://lightonia.vercel.app/og.jpg",
+    url: "https://novu-ai-digest.vercel.app",
+    ogImage: "https://novu-ai-digest.vercel.app/og.jpg",
     description:
     "Send AI-generated notifications to your chat apps.",
     links: {
-      github: "https://github.com/rifont/lightonia",
+      github: "https://github.com/rifont/novu-ai-digest",
     },
   }
   
