@@ -4,13 +4,22 @@ import { aiDigest } from '@/lib/novu/workflows';
 export async function POST(request: Request) {
   const res = await request.json();
 
-  await aiDigest.trigger({
-    to: [SUBSCRIBER_ID],
-    payload: {
-      message: res.message,
-      digestDuration: res.digestDuration,
-    },
-  });
+  console.log(res);
 
-  return Response.json({ success: true });
+  try {
+    const result = await aiDigest.trigger({
+      to: [SUBSCRIBER_ID],
+      payload: {
+      message: res.message,
+        digestDuration: res.digestDuration,
+      },
+    });
+
+    console.log(result);
+
+    return Response.json({ success: true, result });
+  } catch (error) {
+    console.error(error);
+    return Response.json({ success: false, error: error });
+  }
 }
