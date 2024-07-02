@@ -20,6 +20,6 @@ export async function POST(request: Request) {
     return Response.json({ success: true, result });
   } catch (error) {
     console.error(error);
-    return Response.json({ success: false, error: error });
+    return Response.json({ success: false, error: 'Failed to trigger AI digest' });
   }
 }
