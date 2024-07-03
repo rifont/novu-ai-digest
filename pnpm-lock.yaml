@@ -12,8 +12,8 @@ importers:
         specifier: ^3.3.4
         version: 3.3.4(react-hook-form@7.51.3(react@18.2.0))
       '@novu/framework':
-        specifier: file:./novu-framework-0.24.3-alpha.16.tgz
-        version: file:novu-framework-0.24.3-alpha.16.tgz(next@14.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(zod-to-json-schema@3.23.1(zod@3.23.5))(zod@3.23.5)
+        specifier: file:./novu-framework-0.24.3-alpha.17.tgz
+        version: file:novu-framework-0.24.3-alpha.17.tgz(next@14.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(zod-to-json-schema@3.23.1(zod@3.23.5))(zod@3.23.5)
       '@novu/notification-center':
         specifier: ^0.24.2
         version: 0.24.2(@types/react@18.2.67)(acorn@8.11.3)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -542,9 +542,9 @@ packages:
     resolution: {integrity: sha512-h07iLX8mAKTQ6lE7Sa4Bndblue9rcMRhwhHMY41VcWlDot1UmPP38nNh+GmpNaBdxgFfs0MMDBZrndn64jdQog==}
     engines: {node: '>=10'}
 
-  '@novu/framework@file:novu-framework-0.24.3-alpha.16.tgz':
-    resolution: {integrity: sha512-SFwawRLCi+eyfUo7VbW+ffS6W1BRGvyuQpLAFllFjm486fQuoDL9A1ntspdzLX/um8oYHxZGnI8n4/wbvcqNtA==, tarball: file:novu-framework-0.24.3-alpha.16.tgz}
-    version: 0.24.3-alpha.16
+  '@novu/framework@file:novu-framework-0.24.3-alpha.17.tgz':
+    resolution: {integrity: sha512-G0Uvbna4qiKnCoCqNV3ns+4Yjcs+qKlvAKt780PQrF/4lYqvqzji7or5JxIVJ/dydx9BBI+8M55bS/s4ozaJCQ==, tarball: file:novu-framework-0.24.3-alpha.17.tgz}
+    version: 0.24.3-alpha.17
     peerDependencies:
       '@sveltejs/kit': '>=1.27.3'
       '@vercel/node': '>=2.15.9'
@@ -4200,7 +4200,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@novu/framework@file:novu-framework-0.24.3-alpha.16.tgz(next@14.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(zod-to-json-schema@3.23.1(zod@3.23.5))(zod@3.23.5)':
+  '@novu/framework@file:novu-framework-0.24.3-alpha.17.tgz(next@14.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(zod-to-json-schema@3.23.1(zod@3.23.5))(zod@3.23.5)':
     dependencies:
       '@novu/shared': 0.24.2
       ajv: 8.16.0
